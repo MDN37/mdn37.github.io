@@ -1,0 +1,174 @@
+ body {
+    font: 12pt Arial, Helvetica, sans-serif; 
+    margin: 0; 
+    background: #CCC;
+   }
+   h1 {
+    margin: 0; 
+    color: #fc6; 
+   }
+   h2 {
+    margin-top: 0; 
+    text-shadow: 1px 1px 1px #B4B2B2;
+   }
+   h4 {
+    margin-bottom: 0; 
+    margin-top: 0;
+   }
+   b {
+     margin-bottom: 0; 
+    margin-top: 0;
+   }
+   p {
+     text-indent: 20px;
+    margin-top: 0;
+    margin-bottom:0;
+   }
+  p a {
+    margin-left:10px;
+    text-decoration: none; 
+    color:  #003685; 
+    text-indent: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     transition: 0.5s linear;
+   }
+  p a:visited {
+    color:  #003685; /* Цвет посещенных ссылок */
+   }
+ p a:active {
+    color:  #003685; /* Цвет активных ссылок */
+   }
+  p a:hover{
+    color:#008168;
+   }
+  #pp a {
+    margin-left:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: #003685 ;
+     text-indent: 0px; /*отступ первого предложения*/
+      transition: 0.5s linear;
+  }
+  #pp a:visited {
+    color:  #003685; 
+   }
+  #pp a:active {
+    color:  #003685; 
+   }
+  #pp a:hover{
+      color:#008168;
+   }
+   #header {
+    background: linear-gradient(to top right, #009999, #133CAC); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    text-align: center;
+    font: 30px Century Gothic, Arial;
+    text-shadow: 1px 1px 2px black, 0 0 1em red; 
+   }
+   #sidebar { 
+    float: left; 
+    width: 20%; 
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 10px 20px 5px; 
+    background: #CCC;
+    position: fixed;
+  }
+  #sidebar table{
+    border-style: outset;
+    border-color: #01939A;
+    border-radius: 5px;
+  }
+    #page-wrap {
+    width: 600px;
+    margin: 15px auto;
+    position: relative;
+   }
+   #content { 
+    margin: 10px 5px 20px 25%; 
+    padding: 5px; 
+    background: #CCC;
+    text-align: justify;
+   }
+   #footer { 
+    padding: 5px; 
+    color: #fff; 
+    clear: left; 
+    position: fixed; 
+    left: 0; bottom: 0; 
+    background: linear-gradient(to top,#39b54a, #00A876); 
+    width: 100%; 
+    font: 1em Century Gothic, Arial;
+   }
+
+  #test{
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font: 4em Century Gothic, Arial;
+    color: red;
+    text-shadow: 1px 1px 2px #808000, 0 0 1em #FF6F00, 0 0 2em #FFD500; 
+    border:2px outset; 
+    border-radius: 5px;
+    background: linear-gradient(to right,  #00B358, #01939A);
+   }
+   #test a{
+  color: red;
+    transition: 1s linear;
+      text-decoration: none;
+   }
+   #test a:hover{
+    color: red;
+    text-shadow: 1px 1px 2px #808000, 0 0 1em #AD009F, 0 0 2em #6C0AAB; 
+   }
+   #test2{
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font: 2em Century Gothic, Arial;
+    color: red;
+    text-shadow: 1px 1px 2px #808000, 0 0 1em #FF6F00, 0 0 2em #FFD500; 
+    border:2px outset; 
+    border-radius: 5px;
+    background: linear-gradient(to right,  #00B358, #01939A);
+   }
+   #test2 a{
+  color: red;
+    transition: 1s linear;
+      text-decoration: none;
+   }
+   #test2 a:hover{
+    color: red;
+    text-shadow: 1px 1px 2px #808000, 0 0 1em #AD009F, 0 0 2em #6C0AAB; 
+   }
+  .item-list { /*весь блок*/
+    background-color: #CCC;;
+    border-bottom: 3px solid #C2C2C2;
+    height: 35px;
+    border-radius: 5px;
+    font:  17px Century Gothic, Arial;
+  }
+  .pager li { /*строка*/
+    list-style: none;
+    display: inline-block;
+    height: 35px;
+    padding: 0 20px;
+    line-height: 35px;
+
+  }
+  .pager li a {/*ссылка в строке*/
+    text-decoration: none;
+    color: #003685;
+    transition: 1s linear;
+    border-radius: 5px;
+
+  }
+  .pager li a:hover{
+    background-color:#9DACC2;
+  }
+  .pager-current { /*веделенная цифра*/
+    background-color: #C2C2C2;
+    border-bottom: 3px solid #001028;
+    border-radius: 5px;
+  }

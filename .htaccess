@@ -1,0 +1,2 @@
+AddDefaultCharset utf8
+ErrorDocument 404 /err404.html
